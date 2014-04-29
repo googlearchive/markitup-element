@@ -1,0 +1,40 @@
+<link rel="import" href="markitup-import.html">
+<script type="text/javascript" src="../markitup/markitup/sets/default/set.js"></script>
+
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+Element wrapper for the `markitup` (http://markitup.jaysalvat.com/) library.
+
+@class markitup-element
+@blurb Element wrapper for the markitup library.
+@status alpha
+-->
+<polymer-element name="markitup-element" attributes="rows cols value">
+<template>
+
+  <style>
+    :host {
+      display: block;
+    }
+  </style>
+  
+  <link rel="stylesheet" type="text/css" href="../markitup/markitup/skins/markitup/style.css">
+  <link rel="stylesheet" type="text/css" href="../markitup/markitup/sets/default/style.css">
+
+  <textarea id="rich" rows="{{rows}" cols={{cols}}" value="{{value}}"></textarea>
+  
+</template>
+<script>
+
+  Polymer({
+    value: "",
+    rows: 25,
+    cols: 80,
+    domReady: function() {
+      $(this.$.rich).markItUp(mySettings);
+    }
+  });
+  
+</script>  
+</polymer-element>

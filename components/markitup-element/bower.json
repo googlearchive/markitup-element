@@ -1,0 +1,9 @@
+{
+  "name": "markitup-element",
+  "private": true,
+  "dependencies": {
+    "markitup": "*",
+    "jquery2-import": "Polymer/jquery2-import#master",
+    "polymer": "Polymer/polymer#master"
+  }
+}

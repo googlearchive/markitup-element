@@ -1,0 +1,20 @@
+{
+  "name": "markitup-element",
+  "private": true,
+  "dependencies": {
+    "markitup": "*",
+    "jquery2-import": "Polymer/jquery2-import#master",
+    "polymer": "Polymer/polymer#master"
+  },
+  "homepage": "https://github.com/PolymerLabs/markitup-element",
+  "_release": "e6636b87e6",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e6636b87e6107756935d8da14524f4aa6ad0b669"
+  },
+  "_source": "git://github.com/PolymerLabs/markitup-element.git",
+  "_target": "master",
+  "_originalSource": "PolymerLabs/markitup-element",
+  "_direct": true
+}

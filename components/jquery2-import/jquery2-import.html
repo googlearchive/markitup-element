@@ -1,0 +1,14 @@
+﻿<script src="../jquery2/dist/jquery.js"></script>
+
+<script>
+  if (window.ShadowDOMPolyfill) {
+    // blunt hack for ShadowDOM Polyfill inability to wrap `document` and `document.body`
+    jQuery.fn._init = jQuery.fn.init;
+    jQuery.fn.init = function(selector, context) {
+      if (selector && selector.nodeType) {
+        selector = ShadowDOMPolyfill.wrapIfNeeded(selector);
+      }
+      return jQuery.fn._init(selector, context);
+    }
+  }
+</script>
