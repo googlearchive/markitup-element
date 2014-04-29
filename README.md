@@ -1,4 +1,4 @@
 markitup-element
 ================
 
-See the [component landing page](http://polymer.github.io/markitup-element) for more information.
+See the [component landing page](http://polymerlabs.github.io/markitup-element) for more information.
