@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "markitup": "*",
-    "jquery2-import": "PolymerLabs/jquery2-import#master",
+    "jquery2-import": "Polymer/jquery2-import#master",
     "polymer": "Polymer/polymer#master"
   }
 }
